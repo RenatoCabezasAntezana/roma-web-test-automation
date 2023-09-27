@@ -49,7 +49,7 @@ jobs:
         
      #Ejecucion usando maven
     - name: Build with Maven
-      run: mvn clean verify -Dtesting.dtd.http=true
+      run: mvn clean verify -Dtest=runner.TestRunner -Dtesting.dtd.http=true
       
   #  - name: Run TestRunner
   #    run: mvn test -Dtest=runner.TestRunner
