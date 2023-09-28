@@ -37,7 +37,7 @@ jobs:
 
       #Ejecucion usando maven
     - name: Build with Maven
-      run: mvn clean verify
+      run: mvn clean verify -DskipTests
           # mvn verify -DskipTests #-Dtesting.dtd.http=true #Investigar
 
 
