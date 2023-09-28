@@ -1,0 +1,6 @@
+pages\BasePage.class
+pages\LoginPage.class
+pages\DashboardPage.class
+pages\PageManager.class
+driver\DriverManager.class
+utils\Util.class
