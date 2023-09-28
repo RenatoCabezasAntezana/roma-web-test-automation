@@ -15,7 +15,8 @@ import java.io.IOException;
         glue = {"steps"},
         tags = "@HappyPath",
         plugin = {"pretty",
-                "json:target/cucumber.json"
+                "json:target/cucumber.json",
+                "json:target/cucumber.html"
         },
         monochrome = true)
 public class TestRunner {
