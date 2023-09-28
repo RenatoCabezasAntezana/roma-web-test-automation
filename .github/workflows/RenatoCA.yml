@@ -28,4 +28,4 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: mvn clean verify -Dtesting.dtd.http=true mvn verify -DskipTests
+      run: mvn clean verify -Dtesting.dtd.http=true -DskipTests
